@@ -26,7 +26,7 @@ class Player
     virtual void recordAttackResult(Point p, bool validShot, bool shotHit,
                                         bool shipDestroyed, int shipId) = 0;
     virtual void recordAttackByOpponent(Point p) = 0;
-      // We prevent any kind of Player object from being copied or assigned
+      // Prevent any kind of Player object from being copied or assigned
     Player(const Player&) = delete;
     Player& operator=(const Player&) = delete;
 

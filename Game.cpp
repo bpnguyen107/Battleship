@@ -240,7 +240,6 @@ Player* GameImpl::play(Player* p1, Player* p2, Board& b1, Board& b2, bool should
 //******************** Game functions *******************************
 
 // These functions for the most part simply delegate to GameImpl's functions.
-// You probably don't want to change any of the code from this point down.
 
 Game::Game(int nRows, int nCols)
 {

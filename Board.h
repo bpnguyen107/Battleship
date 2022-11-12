@@ -19,7 +19,7 @@ class Board
     void display(bool shotsOnly) const;
     bool attack(Point p, bool& shotHit, bool& shipDestroyed, int& shipId);
     bool allShipsDestroyed() const;
-      // We prevent a Board object from being copied or assigned
+      //Prevent a Board object from being copied or assigned
     Board(const Board&) = delete;
     Board& operator=(const Board&) = delete;
 

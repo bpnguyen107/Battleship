@@ -77,8 +77,6 @@ bool getLineWithTwoIntegers(int& r, int& c)
     return result;
 }
 
-// TODO:  You need to replace this with a real class declaration and
-//        implementation.
 
 class HumanPlayer : public Player {
 
@@ -219,9 +217,6 @@ void HumanPlayer::recordAttackByOpponent(Point p) {}
 //*********************************************************************
 //  MediocrePlayer
 //*********************************************************************
-
-// TODO:  You need to replace this with a real class declaration and
-//        implementation.
 
 class MediocrePlayer : public Player {
 
@@ -425,15 +420,10 @@ void MediocrePlayer::recordAttackResult(Point p, bool validShot, bool shotHit,
 
 }
 
-// Remember that Mediocre::placeShips(Board& b) must start by calling
-// b.block(), and must call b.unblock() just before returning.
-
 //*********************************************************************
 //  GoodPlayer
 //*********************************************************************
 
-// TODO:  You need to replace this with a real class declaration and
-//        implementation.
 
 class GoodPlayer : public Player {
 

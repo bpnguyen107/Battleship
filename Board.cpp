@@ -291,7 +291,6 @@ bool BoardImpl::allShipsDestroyed() const
 //******************** Board functions ********************************
 
 // These functions simply delegate to BoardImpl's functions.
-// You probably don't want to change any of this code.
 
 Board::Board(const Game& g)
 {
